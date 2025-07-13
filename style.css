@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  background: #1a4d2e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.story, .timeline ul li {
+  background: white;
+  border-left: 4px solid #1a4d2e;
+  margin: 1rem 0;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.timeline h2 {
+  color: #1a4d2e;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
